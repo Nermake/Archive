@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="" />
+    <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/ProxyScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/ICharacterStatsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/ICharacterStatsData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,17 +86,27 @@
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/Scripts/Programmer.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Decorator/Example/Scripts/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Decorator/Example/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/ICharacterStatsData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2kmYuekIniv7v2TageofoyoTJhO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
@@ -97,18 +142,30 @@
       <workItem from="1723911574610" duration="11277000" />
       <workItem from="1724275669580" duration="3642000" />
       <workItem from="1724671929162" duration="2168000" />
+      <workItem from="1725040999204" duration="1241000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="777" y="241" key="RiderGenerateDialog" timestamp="1723926685991">
+    <state x="777" y="241" key="RiderGenerateDialog" timestamp="1725041757198">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="777" y="241" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1723926685991" />
+    <state x="777" y="241" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1725041757198" />
   </component>
 </project>
