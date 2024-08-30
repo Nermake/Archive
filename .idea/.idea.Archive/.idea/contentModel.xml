@@ -274,6 +274,7 @@
               <e p="Proxy" t="Include">
                 <e p="Example" t="Include">
                   <e p="MainScript.cs" t="Include" />
+                  <e p="Proxy.asmdef" t="Include" />
                   <e p="Scripts" t="Include">
                     <e p="CharacterStatsData.cs" t="Include" />
                     <e p="CharacterStatsDataProxy.cs" t="Include" />
@@ -372,6 +373,21 @@
               <e p="JsonToFileStorageService.cs" t="Include" />
               <e p="TestStorageItem.cs" t="Include" />
               <e p="TestStorageService.cs" t="Include" />
+            </e>
+            <e p="Zenject" t="Include">
+              <e p="Example" t="Include">
+                <e p="GameType" t="Include">
+                  <e p="Character.cs" t="Include" />
+                  <e p="ICharacter.cs" t="Include" />
+                </e>
+                <e p="Installers" t="Include">
+                  <e p="SceneInstaller.cs" t="Include" />
+                </e>
+                <e p="Logic" t="Include">
+                  <e p="MoveController.cs" t="Include" />
+                  <e p="MoveInput.cs" t="Include" />
+                </e>
+              </e>
             </e>
           </e>
         </e>
@@ -1803,6 +1819,7 @@
       <e p="ObjectPool.csproj" t="IncludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Prototype.csproj" t="IncludeRecursive" />
+      <e p="Proxy.csproj" t="IncludeRecursive" />
       <e p="QFSW.QC.csproj" t="IncludeRecursive" />
       <e p="QFSW.QC.Demo.csproj" t="IncludeRecursive" />
       <e p="QFSW.QC.Editor.csproj" t="IncludeRecursive" />

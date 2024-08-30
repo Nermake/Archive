@@ -19,7 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="" />
+    <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Character.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Character.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/ICharacter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/ICharacter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/ZenjectScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/ZenjectScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +98,12 @@
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/ICharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Character.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +116,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -128,7 +156,7 @@
       <workItem from="1723911574610" duration="11277000" />
       <workItem from="1724275669580" duration="3642000" />
       <workItem from="1724671929162" duration="2168000" />
-      <workItem from="1725040999204" duration="2093000" />
+      <workItem from="1725040999204" duration="3981000" />
     </task>
     <servers />
   </component>
@@ -146,6 +174,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
