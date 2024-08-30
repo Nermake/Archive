@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/ProxyScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/ICharacterStatsData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/ICharacterStatsData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,8 +75,8 @@
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/MainScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/ICharacterStatsData.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +128,7 @@
       <workItem from="1723911574610" duration="11277000" />
       <workItem from="1724275669580" duration="3642000" />
       <workItem from="1724671929162" duration="2168000" />
-      <workItem from="1725040999204" duration="1241000" />
+      <workItem from="1725040999204" duration="2093000" />
     </task>
     <servers />
   </component>
