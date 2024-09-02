@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit1.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Tester.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Tester.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NuGet.config.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NuGet.config.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/packages.config.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/packages.config.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +88,14 @@
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/ICharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Tester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +149,7 @@
       <workItem from="1724275669580" duration="3642000" />
       <workItem from="1724671929162" duration="2168000" />
       <workItem from="1725040999204" duration="4762000" />
+      <workItem from="1725222151275" duration="1773000" />
     </task>
     <servers />
   </component>
@@ -156,6 +165,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
