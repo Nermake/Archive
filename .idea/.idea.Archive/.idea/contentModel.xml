@@ -12,11 +12,6 @@
       <e p="Assets" t="Include">
         <e p="Mori" t="Include">
           <e p="Patterns" t="Include">
-            <e p="ArchitecturalPatterns" t="Include">
-              <e p="MVC" t="Include" />
-              <e p="MVP" t="Include" />
-              <e p="MVVM" t="Include" />
-            </e>
             <e p="DesignPattern" t="Include">
               <e p="ObjectPool" t="Include">
                 <e p="Example" t="Include">
@@ -86,7 +81,6 @@
                 <e p="Example2" t="Include">
                   <e p="Builder_2.asmdef" t="Include" />
                   <e p="MainScript.cs" t="Include" />
-                  <e p="Prefabs" t="Include" />
                   <e p="Scripts" t="Include">
                     <e p="Mob.cs" t="Include" />
                     <e p="MobBuilder.cs" t="Include" />
@@ -169,7 +163,6 @@
                 <e p="Example2" t="Include">
                   <e p="State" t="Include">
                     <e p="BadExample" t="Include">
-                      <e p="Prefabs" t="Include" />
                       <e p="Scripts" t="Include">
                         <e p="InputHandler.cs" t="Include" />
                         <e p="Tower.cs" t="Include" />
@@ -182,7 +175,6 @@
                       <e p="StateBadExample.asmdef" t="Include" />
                     </e>
                     <e p="GoodExample" t="Include">
-                      <e p="Prefabs" t="Include" />
                       <e p="Scripts" t="Include">
                         <e p="InputHandler.cs" t="Include" />
                         <e p="Tower.cs" t="Include" />
@@ -218,9 +210,23 @@
                   <e p="Strategy.asmdef" t="Include" />
                 </e>
               </e>
+              <e p="Visitor" t="Include">
+                <e p="Example" t="Include">
+                  <e p="MainScript.cs" t="Include" />
+                  <e p="Scripts" t="Include">
+                    <e p="Bank.cs" t="Include" />
+                    <e p="Company.cs" t="Include" />
+                    <e p="HtmlVisitor.cs" t="Include" />
+                    <e p="IAccount.cs" t="Include" />
+                    <e p="IVisitor.cs" t="Include" />
+                    <e p="Person.cs" t="Include" />
+                    <e p="XmlVisitor.cs" t="Include" />
+                  </e>
+                  <e p="Visitor.asmdef" t="Include" />
+                </e>
+              </e>
             </e>
             <e p="StructuralPatterns" t="Include">
-              <e p="Adapter" t="Include" />
               <e p="Bridge" t="Include">
                 <e p="Example" t="Include">
                   <e p="Bridge.asmdef" t="Include" />
@@ -235,7 +241,17 @@
                   </e>
                 </e>
               </e>
-              <e p="Composite" t="Include" />
+              <e p="Composite" t="Include">
+                <e p="Example" t="Include">
+                  <e p="Composite.asmdef" t="Include" />
+                  <e p="MainScript.cs" t="Include" />
+                  <e p="Scripts" t="Include">
+                    <e p="Component.cs" t="Include" />
+                    <e p="Directory.cs" t="Include" />
+                    <e p="File.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
               <e p="Decorator" t="Include">
                 <e p="Example" t="Include">
                   <e p="Decorator.asmdef" t="Include" />
@@ -256,8 +272,21 @@
                   </e>
                 </e>
               </e>
-              <e p="EventBus" t="Include" />
-              <e p="Facade" t="Include" />
+              <e p="EventBus" t="Include">
+                <e p="Example" t="Include">
+                  <e p="MainScript.cs" t="Include" />
+                  <e p="Scripts" t="Include">
+                    <e p="CallbackWithPriority.cs" t="Include" />
+                    <e p="EventBus.cs" t="Include" />
+                    <e p="IDisposable.cs" t="Include" />
+                    <e p="Signals" t="Include">
+                      <e p="AddGoldSignal.cs" t="Include" />
+                      <e p="GoldChangedSignal.cs" t="Include" />
+                      <e p="SpendGoldSignal.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
               <e p="FluentInterface" t="Include">
                 <e p="Example" t="Include">
                   <e p="FluentInterface.asmdef" t="Include" />
@@ -270,7 +299,6 @@
                   </e>
                 </e>
               </e>
-              <e p="Flyweight" t="Include" />
               <e p="Proxy" t="Include">
                 <e p="Example" t="Include">
                   <e p="MainScript.cs" t="Include" />
@@ -297,16 +325,6 @@
                 </e>
               </e>
             </e>
-          </e>
-          <e p="Resources" t="Include">
-            <e p="Animations" t="Include" />
-            <e p="Images" t="Include">
-              <e p="Monster1" t="Include" />
-              <e p="Monster2" t="Include" />
-            </e>
-            <e p="Materials" t="Include" />
-            <e p="Models" t="Include" />
-            <e p="Prefabs" t="Include" />
           </e>
           <e p="SDK" t="Include">
             <e p="BinaryStorage" t="Include">
@@ -347,7 +365,6 @@
               <e p="InventoryGridView.cs" t="Include" />
               <e p="InventoryService.cs" t="Include" />
               <e p="InventorySlot.cs" t="Include" />
-              <e p="Prefabs" t="Include" />
               <e p="ReadOnly" t="Include">
                 <e p="IReadOnlyInventory.cs" t="Include" />
                 <e p="IReadOnlyInventoryGrid.cs" t="Include" />
@@ -424,12 +441,6 @@
             </e>
           </e>
           <e p="System.CodeDom.7.0.0" t="Include">
-            <e p="buildTransitive" t="Include">
-              <e p="net461" t="Include" />
-              <e p="net462" t="Include" />
-              <e p="net6.0" t="Include" />
-              <e p="netcoreapp2.0" t="Include" />
-            </e>
             <e p="lib" t="Include">
               <e p="netstandard2.0" t="Include">
                 <e p="System.CodeDom.xml" t="Include" />
@@ -438,10 +449,6 @@
             <e p="useSharedDesignerContext.txt" t="Include" />
           </e>
           <e p="System.Management.7.0.2" t="Include">
-            <e p="buildTransitive" t="Include">
-              <e p="net6.0" t="Include" />
-              <e p="netcoreapp2.0" t="Include" />
-            </e>
             <e p="lib" t="Include">
               <e p="netstandard2.0" t="Include">
                 <e p="System.Management.xml" t="Include" />
@@ -456,9 +463,6 @@
               <e p="Source" t="Include">
                 <e p="changelog.txt" t="Include" />
                 <e p="Demo Scene" t="Include">
-                  <e p="Animations" t="Include" />
-                  <e p="Materials" t="Include" />
-                  <e p="Prefabs" t="Include" />
                   <e p="QFSW.QC.Demo.asmdef" t="Include" />
                   <e p="Scripts" t="Include">
                     <e p="Gate.cs" t="Include" />
@@ -466,7 +470,6 @@
                     <e p="RobotCollector.cs" t="Include" />
                     <e p="RobotSpawner.cs" t="Include" />
                   </e>
-                  <e p="Textures" t="Include" />
                 </e>
                 <e p="Extras" t="Include">
                   <e p="ApplicationCommands.cs" t="Include" />
@@ -479,7 +482,6 @@
                       <e p="CustomReportPrinter.cs" t="Include" />
                       <e p="DeferredSynchronizeInvoke.cs" t="Include" />
                       <e p="LICENSE.txt" t="Include" />
-                      <e p="Plugins" t="Include" />
                       <e p="ScriptBundleLoader.cs" t="Include" />
                     </e>
                     <e p="DynamicCodeCommands.cs" t="Include" />
@@ -498,10 +500,7 @@
                 </e>
                 <e p="Fonts" t="Include">
                   <e p="LICENSE.txt" t="Include" />
-                  <e p="TMP" t="Include" />
                 </e>
-                <e p="Materials" t="Include" />
-                <e p="Prefabs" t="Include" />
                 <e p="Scripts" t="Include">
                   <e p="Actions" t="Include">
                     <e p="Async.cs" t="Include" />
@@ -761,22 +760,17 @@
                 <e p="Shaders" t="Include">
                   <e p="Blur.shader" t="Include" />
                 </e>
-                <e p="Textures" t="Include" />
                 <e p="Third-Party Notices.txt" t="Include" />
               </e>
             </e>
           </e>
           <e p="TextMesh Pro" t="Include">
-            <e p="Documentation" t="Include" />
             <e p="Fonts" t="Include">
               <e p="LiberationSans - OFL.txt" t="Include" />
             </e>
             <e p="Resources" t="Include">
-              <e p="Fonts &amp; Materials" t="Include" />
               <e p="LineBreaking Following Characters.txt" t="Include" />
               <e p="LineBreaking Leading Characters.txt" t="Include" />
-              <e p="Sprite Assets" t="Include" />
-              <e p="Style Sheets" t="Include" />
             </e>
             <e p="Shaders" t="Include">
               <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
@@ -873,14 +867,6 @@
                     <e p="Foo.cs" t="Include" />
                     <e p="Foo2.cs" t="Include" />
                   </e>
-                  <e p="Resources" t="Include">
-                    <e p="TestBindFactory" t="Include" />
-                    <e p="TestBindFactoryFive" t="Include" />
-                    <e p="TestBindFactoryOne" t="Include" />
-                    <e p="TestGameObjectFactoryOne" t="Include" />
-                    <e p="TestGameObjectFactoryZero" t="Include" />
-                    <e p="TestPrefabFactory" t="Include" />
-                  </e>
                   <e p="TestBindFactory" t="Include">
                     <e p="Bar.cs" t="Include" />
                     <e p="Foo.cs" t="Include" />
@@ -896,10 +882,6 @@
                   </e>
                 </e>
                 <e p="Installers" t="Include">
-                  <e p="Resources" t="Include">
-                    <e p="TestMonoInstallers" t="Include" />
-                    <e p="TestScriptableObjectInstallers" t="Include" />
-                  </e>
                   <e p="TestInstallers" t="Include">
                     <e p="BarInstaller.cs" t="Include" />
                     <e p="FooInstaller.cs" t="Include" />
@@ -918,42 +900,21 @@
                 </e>
                 <e p="Misc" t="Include">
                   <e p="TestAnimationStateBehaviourInject" t="Include">
-                    <e p="Resources" t="Include">
-                      <e p="TestAnimationStateBehaviourInject" t="Include" />
-                    </e>
                     <e p="StateBehaviour1.cs" t="Include" />
                   </e>
                   <e p="TestZenAutoInjecter" t="Include">
                     <e p="Bar.cs" t="Include" />
                     <e p="Gorp.cs" t="Include" />
                     <e p="Qux.cs" t="Include" />
-                    <e p="Resources" t="Include">
-                      <e p="TestZenAutoInjecter" t="Include" />
-                    </e>
                   </e>
-                </e>
-                <e p="Resources" t="Include">
-                  <e p="TestBindGameObject" t="Include" />
-                  <e p="TestDiContainerMethods" t="Include" />
-                  <e p="TestFromComponentInHierarchyGameObjectContext" t="Include" />
-                  <e p="TestFromNewScriptableObjectResource" t="Include" />
-                  <e p="TestFromPrefab" t="Include" />
-                  <e p="TestFromPrefabInstaller" t="Include" />
-                  <e p="TestFromPrefabResource" t="Include" />
-                  <e p="TestFromResource" t="Include" />
-                  <e p="TestFromSubContainerPrefab" t="Include" />
-                  <e p="TestFromSubContainerPrefabResource" t="Include" />
-                  <e p="TestInstantiateCallback" t="Include" />
                 </e>
                 <e p="SceneContractTests" t="Include">
                   <e p="AutoLoader" t="Include">
-                    <e p="Resources" t="Include" />
                     <e p="Scene1Installer.cs" t="Include" />
                     <e p="Scene2Installer.cs" t="Include" />
                     <e p="Scene3Installer.cs" t="Include" />
                   </e>
                   <e p="Decorators" t="Include">
-                    <e p="Resources" t="Include" />
                     <e p="Scene1Installer.cs" t="Include" />
                     <e p="Scene2Installer.cs" t="Include" />
                   </e>
@@ -968,17 +929,11 @@
                     <e p="FooMonoBehaviourUnderSceneContext3.cs" t="Include" />
                     <e p="ProjectInstaller.cs" t="Include" />
                     <e p="ReadMe.txt" t="Include" />
-                    <e p="RenameThisResources" t="Include" />
                     <e p="Scene1Installer.cs" t="Include" />
                     <e p="Scene2Installer.cs" t="Include" />
                   </e>
                   <e p="TestSceneContextEvents" t="Include">
                     <e p="SceneContextEventsTester.cs" t="Include" />
-                    <e p="Tests" t="Include">
-                      <e p="Resources" t="Include">
-                        <e p="SceneTestFixtureSettings" t="Include" />
-                      </e>
-                    </e>
                   </e>
                 </e>
                 <e p="Tests" t="Include">
@@ -1104,9 +1059,6 @@
                     <e p="MpmWindow.cs" t="Include" />
                   </e>
                   <e p="MpmSettingsInstaller.cs" t="Include" />
-                  <e p="Resources" t="Include">
-                    <e p="Installers" t="Include" />
-                  </e>
                   <e p="Zenject-PoolMonitor-Editor.asmdef" t="Include" />
                 </e>
               </e>
@@ -1115,7 +1067,6 @@
                   <e p="CecilExtensions.cs" t="Include" />
                   <e p="ReflectionBakingModuleEditor.cs" t="Include" />
                 </e>
-                <e p="lib" t="Include" />
                 <e p="Unity" t="Include">
                   <e p="AssemblyPathRegistry.cs" t="Include" />
                   <e p="ReflectionBakingBuildObserver.cs" t="Include" />
@@ -1133,40 +1084,12 @@
                     <e p="Space.txt" t="Include" />
                   </e>
                   <e p="Imported" t="Include">
-                    <e p="Materials" t="Include" />
-                    <e p="Rocks" t="Include">
-                      <e p="meshes" t="Include">
-                        <e p="Materials" t="Include" />
-                      </e>
-                      <e p="Textures" t="Include" />
-                    </e>
                     <e p="Shaders" t="Include">
                       <e p="Add_Layer.shader" t="Include" />
                       <e p="AddSmooth_Layer.shader" t="Include" />
                       <e p="Particle Alpha Blend_IgnoreFog.shader" t="Include" />
                     </e>
-                    <e p="SpaceShip" t="Include">
-                      <e p="Materials" t="Include" />
-                      <e p="Space_Shooter.fbm" t="Include" />
-                      <e p="Textures" t="Include" />
-                    </e>
-                    <e p="Textures" t="Include" />
                   </e>
-                  <e p="Materials" t="Include" />
-                  <e p="meshes" t="Include">
-                    <e p="Materials" t="Include" />
-                  </e>
-                  <e p="Physics" t="Include" />
-                  <e p="Sounds" t="Include" />
-                  <e p="Textures" t="Include">
-                    <e p="Background" t="Include">
-                      <e p="Materials" t="Include" />
-                    </e>
-                  </e>
-                </e>
-                <e p="Prefabs" t="Include" />
-                <e p="Resources" t="Include">
-                  <e p="Installers" t="Include" />
                 </e>
                 <e p="Scripts" t="Include">
                   <e p="Asteroid" t="Include">
@@ -1205,20 +1128,6 @@
                 </e>
               </e>
               <e p="SampleGame2 (Advanced)" t="Include">
-                <e p="Media" t="Include">
-                  <e p="Materials" t="Include" />
-                  <e p="Models" t="Include">
-                    <e p="Materials" t="Include" />
-                  </e>
-                  <e p="Physics" t="Include" />
-                  <e p="Prefabs" t="Include" />
-                  <e p="Sounds" t="Include" />
-                  <e p="Textures" t="Include" />
-                </e>
-                <e p="Resources" t="Include">
-                  <e p="SpaceFighter" t="Include" />
-                </e>
-                <e p="Scenes" t="Include" />
                 <e p="Scripts" t="Include">
                   <e p="Enemy" t="Include">
                     <e p="EnemyCommonSettings.cs" t="Include" />
@@ -1807,13 +1716,13 @@
             <e p="zenject.asmdef" t="Include" />
           </e>
         </e>
-        <e p="Scenes" t="Include" />
       </e>
       <e p="Bridge.csproj" t="IncludeRecursive" />
       <e p="Builder_1.csproj" t="IncludeRecursive" />
       <e p="Builder_2.csproj" t="IncludeRecursive" />
       <e p="ChainOfResponsibility.csproj" t="IncludeRecursive" />
       <e p="Command.csproj" t="IncludeRecursive" />
+      <e p="Composite.csproj" t="IncludeRecursive" />
       <e p="Decorator.csproj" t="IncludeRecursive" />
       <e p="FactoryMethod.csproj" t="IncludeRecursive" />
       <e p="FluentInterface.csproj" t="IncludeRecursive" />
@@ -1841,6 +1750,7 @@
       <e p="StateGoodExample.csproj" t="IncludeRecursive" />
       <e p="Strategy.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Visitor.csproj" t="IncludeRecursive" />
       <e p="Zenject-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject-IntegrationTests-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject-IntegrationTests.csproj" t="IncludeRecursive" />
