@@ -20,60 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/MainScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/MainScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Bank.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Bank.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Company.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Company.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/HtmlVisitor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/HtmlVisitor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/IAccount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/IAccount.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/IVisitor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/IVisitor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Person.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/XmlVisitor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/XmlVisitor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Visitor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/VisitorScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/Composite.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/CompositeScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/MainScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/MainScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/Scripts/Component.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/Scripts/Component.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/Scripts/Directory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/Scripts/Directory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/Scripts/File.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Composite/Example/Scripts/File.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/EventBusScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/EventBusScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/MainScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/MainScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/CallbackWithPriority.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/CallbackWithPriority.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/EventBus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/EventBus.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/IDisposable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/IDisposable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/AddGoldSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/AddGoldSignal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/GoldChangedSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/GoldChangedSignal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/SpendGoldSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/SpendGoldSignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Editor/SaveManagerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Editor/SaveManagerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Example.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Example/Save&amp;LoadScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Example/Save&amp;LoadScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/FileDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/FileDataService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/GameData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/GameData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/IDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/IDataService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/ISerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/ISerializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/JsonSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/JsonSerializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/MainScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/MainScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Save&amp;LoadScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/SaveLoadSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/SaveLoadSystem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/Patterns.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,15 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/ServiceLocator/Example/Scripts/ServiceLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/ServiceLocator/Example/Scripts/ServiceTwo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/ServiceLocator/Example/Scripts/ServiceOne.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/ServiceLocator/Example/MainScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/ServiceLocator/Example/Test.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Facade/Pistol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Facade/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Facade/Rifle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/Scripts/ILanguage.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/Scripts/CPPLanguage.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/Scripts/CorporateProgrammer.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" />
@@ -141,6 +102,15 @@
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/GoldChangedSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/Scripts/Signals/SpendGoldSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/EventBus/Example/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Example/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/IDataService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/JsonSerializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/ISerializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/Editor/SaveManagerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/SaveLoadSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Save&amp;Load/FileDataService.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +167,7 @@
       <workItem from="1725222151275" duration="1773000" />
       <workItem from="1725309111910" duration="664000" />
       <workItem from="1725393115676" duration="5742000" />
+      <workItem from="1725978970066" duration="4490000" />
     </task>
     <servers />
   </component>
@@ -219,9 +190,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="777" y="241" key="RiderGenerateDialog" timestamp="1725041757198">
+    <state x="777" y="241" key="RiderGenerateDialog" timestamp="1725980488708">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="777" y="241" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1725041757198" />
+    <state x="777" y="241" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1725980488708" />
   </component>
 </project>

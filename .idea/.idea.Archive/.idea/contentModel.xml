@@ -7,6 +7,7 @@
     <e p="D:\GitHub\Archive" t="IncludeRecursive">
       <e p="AbstractFactoryExample.csproj" t="IncludeRecursive" />
       <e p="Archive.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -274,6 +275,7 @@
               </e>
               <e p="EventBus" t="Include">
                 <e p="Example" t="Include">
+                  <e p="EventBus.asmdef" t="Include" />
                   <e p="MainScript.cs" t="Include" />
                   <e p="Scripts" t="Include">
                     <e p="CallbackWithPriority.cs" t="Include" />
@@ -384,6 +386,18 @@
               <e p="ResourceBigInteger.cs" t="Include" />
               <e p="ResourcesFeature.cs" t="Include" />
               <e p="ResourceType.cs" t="Include" />
+            </e>
+            <e p="Save&amp;Load" t="Include">
+              <e p="Editor" t="Include">
+                <e p="SaveManagerEditor.cs" t="Include" />
+              </e>
+              <e p="FileDataService.cs" t="Include" />
+              <e p="GameData.cs" t="Include" />
+              <e p="IDataService.cs" t="Include" />
+              <e p="ISerializer.cs" t="Include" />
+              <e p="JsonSerializer.cs" t="Include" />
+              <e p="MainScript.cs" t="Include" />
+              <e p="SaveLoadSystem.cs" t="Include" />
             </e>
             <e p="StorageService" t="Include">
               <e p="IStorageService.cs" t="Include" />
@@ -1724,6 +1738,7 @@
       <e p="Command.csproj" t="IncludeRecursive" />
       <e p="Composite.csproj" t="IncludeRecursive" />
       <e p="Decorator.csproj" t="IncludeRecursive" />
+      <e p="EventBus.csproj" t="IncludeRecursive" />
       <e p="FactoryMethod.csproj" t="IncludeRecursive" />
       <e p="FluentInterface.csproj" t="IncludeRecursive" />
       <e p="Fsm.csproj" t="IncludeRecursive" />
