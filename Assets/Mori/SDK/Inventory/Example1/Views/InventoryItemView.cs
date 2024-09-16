@@ -37,7 +37,6 @@ namespace Mori.SDK.Inventory
         {
             var slotTransform = _rectTransform.parent;
             slotTransform.SetAsLastSibling();
-            _rectTransform.parent = eventData.pointerDrag.transform;
             _canvasGroup.blocksRaycasts = false;
         }
 
