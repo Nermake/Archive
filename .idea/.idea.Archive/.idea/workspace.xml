@@ -20,126 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/IItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/IItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/Item.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/ItemConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/ItemConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Equipment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IInventoryItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IInventoryItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IInventorySlot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IInventorySlot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IItemInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IItemInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IItemState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/IInventory/IItemState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/Inventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/Inventory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/InventorySlot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/InventorySlot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/UI/UIInventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/UI/UIInventory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemApple.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemApple.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemSword.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemSword.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventoryItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventoryItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventorySlot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventorySlot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventoryTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventoryTester.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UISlot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UISlot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/SyncedTimer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/SyncedTimer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/T_Timer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/T_Timer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimeChangingSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimeChangingSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimeInvoker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimeInvoker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimerScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimerScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimerType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Timer/TimerType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIInventoryItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIInventoryItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIInventorySlot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIInventorySlot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UISlot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UISlot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryItemView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryItemView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/ItemInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/ItemInfo.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets.generated.sln.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Adapter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Facade.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Flyweight.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/AddItemsToInventoryGridResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/AddItemsToInventoryGridResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/AddItemsToInventoryGridResult.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/AddItemsToInventoryGridResult.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Controllers/InventoryGridController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventoryGridController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Controllers/InventoryGridController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventoryGridController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Controllers/InventorySlotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventorySlotController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Controllers/InventorySlotController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventorySlotController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Controllers/ScreenController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/ScreenController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Controllers/ScreenController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/ScreenController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/IInventoryStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/IInventoryStateProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/IInventoryStateProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/IInventoryStateProvider.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/IInventoryStateSaver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/IInventoryStateSaver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/IInventoryStateSaver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/IInventoryStateSaver.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventoryGridData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventoryGridData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventoryGridData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventoryGridData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventorySlotData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventorySlotData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventorySlotData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventorySlotData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventoryStateData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventoryStateData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventoryStateData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventoryStateData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventoryStatePlayerPrefsProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventoryStatePlayerPrefsProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Data/InventoryStatePlayerPrefsProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Data/InventoryStatePlayerPrefsProvider.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/EntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/EntryPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/EntryPoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/EntryPoint.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGrid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryGrid.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGrid.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryGridView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGridView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryGridView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGridView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventoryService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventorySlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/InventorySlot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventorySlot.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Prefabs/InventorySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Prefabs/InventorySlot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Prefabs/InventorySlot.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Prefabs/InventorySlot.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/ReadOnly.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/ReadOnly/IReadOnlyInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/ReadOnly/IReadOnlyInventory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/ReadOnly/IReadOnlyInventoryGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventoryGrid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/ReadOnly/IReadOnlyInventoryGrid.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventoryGrid.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/ReadOnly/IReadOnlyInventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventorySlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/ReadOnly/IReadOnlyInventorySlot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventorySlot.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/RemoveItemsFromInventoryGridResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/RemoveItemsFromInventoryGridResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/RemoveItemsFromInventoryGridResult.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/RemoveItemsFromInventoryGridResult.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Views.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Views/InventorySlotView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Views/InventorySlotView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Views/InventoryView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Views/InventoryView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Views/ScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/ScreenView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Views/ScreenView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/ScreenView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventorySlotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventorySlotController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Prefabs/InventorySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Prefabs/InventorySlot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemApple.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemApple.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemSword.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Items/ItemSword.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventoryTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventoryTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIItem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,22 +61,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D59E6F-CB13-47E9-89EA-C698E120E709/cb/972c8628/IDropHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/DesignPattern/ObjectPool/Example/Scripts/PoolMono.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/Scripts/CharacterStatsDataProxy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Proxy/Example/MainScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/ICharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Character.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Logic/MoveInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/GameType/Unit1.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Tester.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visiter/Example/MainScript.cs" />
@@ -207,6 +109,16 @@
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/IItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/ItemConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Items/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UISlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/UI/UIInventoryTester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Inventory/ItemInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIInventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Test/UIInventorySlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryItemView.cs" />
       </list>
     </option>
   </component>
@@ -266,6 +178,7 @@
       <workItem from="1725393115676" duration="5742000" />
       <workItem from="1725978970066" duration="4490000" />
       <workItem from="1726293410681" duration="4391000" />
+      <workItem from="1726480586306" duration="7009000" />
     </task>
     <servers />
   </component>
@@ -291,10 +204,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="622" y="209" key="RiderGenerateDialog" timestamp="1726297076853">
+    <state x="622" y="209" key="RiderGenerateDialog" timestamp="1726484890790">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="622" y="209" key="RiderGenerateDialog/0.0.1536.912@0.0.1536.912" timestamp="1726297076853" />
+    <state x="622" y="209" key="RiderGenerateDialog/0.0.1536.912@0.0.1536.912" timestamp="1726484890790" />
     <state x="777" y="241" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1725980488708" />
   </component>
 </project>

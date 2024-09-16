@@ -378,7 +378,14 @@
                   <e p="IReadOnlyInventorySlot.cs" t="Include" />
                 </e>
                 <e p="RemoveItemsFromInventoryGridResult.cs" t="Include" />
+                <e p="Test" t="Include">
+                  <e p="UIInventoryItem.cs" t="Include" />
+                  <e p="UIInventorySlot.cs" t="Include" />
+                  <e p="UIItem.cs" t="Include" />
+                  <e p="UISlot.cs" t="Include" />
+                </e>
                 <e p="Views" t="Include">
+                  <e p="InventoryItemView.cs" t="Include" />
                   <e p="InventorySlotView.cs" t="Include" />
                   <e p="InventoryView.cs" t="Include" />
                   <e p="ScreenView.cs" t="Include" />
@@ -395,14 +402,10 @@
                     </e>
                     <e p="Inventory.cs" t="Include" />
                     <e p="InventorySlot.cs" t="Include" />
+                    <e p="ItemInfo.cs" t="Include" />
                     <e p="UI" t="Include">
                       <e p="UIInventory.cs" t="Include" />
                     </e>
-                  </e>
-                  <e p="Items" t="Include">
-                    <e p="ItemApple.cs" t="Include" />
-                    <e p="ItemInfo.cs" t="Include" />
-                    <e p="ItemSword.cs" t="Include" />
                   </e>
                 </e>
                 <e p="UI" t="Include">

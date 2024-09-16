@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Mori.SDK.Inventory
+namespace Mori.SDK.Inventory.Test
 {
-    public class InventorySlotView : MonoBehaviour, IDropHandler
+    public class UISlot : MonoBehaviour, IDropHandler
     {
         public virtual void OnDrop(PointerEventData eventData)
         {

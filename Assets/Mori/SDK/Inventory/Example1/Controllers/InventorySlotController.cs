@@ -2,9 +2,9 @@
 {
     public class InventorySlotController
     {
-        private readonly InventorySlotView _view;
+        private readonly InventoryItemView _view;
         
-        public InventorySlotController(IReadOnlyInventorySlot slot, InventorySlotView view)
+        public InventorySlotController(IReadOnlyInventorySlot slot, InventoryItemView view)
         {
             _view = view;
 

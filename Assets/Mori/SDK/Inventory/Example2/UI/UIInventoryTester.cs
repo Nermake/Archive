@@ -47,9 +47,9 @@ namespace UI
             var rSlotIndex = Random.Range(0, slots.Count);
             var rSlot = slots[rSlotIndex];
             var rCount = Random.Range(1, 4);
-            var apple = new ItemApple(_appleInfo);
-            apple.state.amount = rCount;
-            inventory.TryToAddToSlot(this, rSlot, apple);
+            //var apple = new ItemApple(_appleInfo);
+            //apple.state.amount = rCount;
+            //inventory.TryToAddToSlot(this, rSlot, apple);
             return rSlot;
         }
 
@@ -71,9 +71,9 @@ namespace UI
             var rSlotIndex = Random.Range(0, slots.Count);
             var rSlot = slots[rSlotIndex];
             var rCount = Random.Range(1, 4);
-            var sword = new ItemSword(_swordInfo);
-            sword.state.amount = rCount;
-            inventory.TryToAddToSlot(this, rSlot, sword);
+            //var sword = new ItemSword(_swordInfo);
+            //sword.state.amount = rCount;
+            //inventory.TryToAddToSlot(this, rSlot, sword);
             return rSlot;
         }
 

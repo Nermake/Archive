@@ -5,7 +5,7 @@ namespace Mori.SDK.Inventory
 {
     public class InventoryView : MonoBehaviour
     {
-        [SerializeField] private InventorySlotView[] _slots;
+        [SerializeField] private InventoryItemView[] _items;
         [SerializeField] private TMP_Text _textOwner;
 
         public string OwnerId
@@ -14,9 +14,9 @@ namespace Mori.SDK.Inventory
             set => _textOwner.text = value;
         }
 
-        public InventorySlotView GetInventorySlotView(int index)
+        public InventoryItemView GetInventorySlotView(int index)
         {
-            return _slots[index];
+            return _items[index];
         }
     }
 }

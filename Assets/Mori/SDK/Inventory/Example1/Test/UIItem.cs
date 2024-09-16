@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace UI
+namespace Mori.SDK.Inventory.Test
 {
     public class UIItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
     {
