@@ -30,8 +30,27 @@ namespace Mori.SDK.Inventory
                 ItemAmountChanged?.Invoke(value);
             }
         }
-        public bool IsEmpty => Amount == 0 && string.IsNullOrEmpty(ItemId);
+
+        public int Capacity { get; private set; }
+        public bool IsEmpty => (Amount == 0 && string.IsNullOrEmpty(ItemId)) || Item == null;
+        public bool IsFull => !IsEmpty && Amount == Capacity;
+        public IReadOnlyInventoryItem Item { get; private set; }
+        public Type ItemType => Item.Type;
         
+        public void Clear()
+        {
+            if (IsEmpty) return;
+            Item.State.Amount = 0;
+            Item = null;
+        }
+
+        public void SetItem(IReadOnlyInventoryItem item)
+        {
+            if (IsEmpty) return;
+
+            Item.State.Amount = 0;
+        }
+
         private readonly InventorySlotData _data;
 
         public InventorySlot(InventorySlotData data) => _data = data;

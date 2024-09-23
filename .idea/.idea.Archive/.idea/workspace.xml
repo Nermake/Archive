@@ -20,14 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets.generated.sln.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Contract.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Contract/IItemInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Contract/IItemInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Contract/IItemState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Contract/IItemState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventoryItemController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventoryItemController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoryItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoryItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventoryItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventoryItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Result.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryItemView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example2/Interface/Equipment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets.generated.sln.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/AddItemsToInventoryGridResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Result/AddItemsToInventoryGridResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/AddItemsToInventoryGridResult.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Result/AddItemsToInventoryGridResult.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoryGrid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGrid.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoryGrid.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGridView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryGridView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryGridView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryGridView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventoryService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoryService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventorySlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/InventorySlot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventorySlot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventorySlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/RemoveItemsFromInventoryGridResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Result/RemoveItemsFromInventoryGridResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/RemoveItemsFromInventoryGridResult.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Result/RemoveItemsFromInventoryGridResult.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +62,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/DesignPattern/ObjectPool/Example/Scripts/PoolMono.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Tester.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Zenject/Example/Installers/SceneInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visiter/Example/MainScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/HtmlVisitor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/IVisitor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/XmlVisitor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Bank.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/IAccount.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Person.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/Scripts/Company.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/Visitor/Example/MainScript.cs" />
@@ -95,6 +111,14 @@
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryView.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventorySlotView.cs" />
         <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Views/InventoryItemView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Contract/IItemInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Contract/IItemState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventorySlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/ReadOnly/IReadOnlyInventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventorySlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoriItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Model/InventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mori/SDK/Inventory/Example1/Controllers/InventoryItemController.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +179,7 @@
       <workItem from="1725978970066" duration="4490000" />
       <workItem from="1726293410681" duration="4391000" />
       <workItem from="1726480586306" duration="7009000" />
+      <workItem from="1726552577770" duration="5996000" />
     </task>
     <servers />
   </component>
@@ -180,10 +205,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="622" y="209" key="RiderGenerateDialog" timestamp="1726484890790">
+    <state x="622" y="209" key="RiderGenerateDialog" timestamp="1726566706711">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="622" y="209" key="RiderGenerateDialog/0.0.1536.912@0.0.1536.912" timestamp="1726484890790" />
+    <state x="622" y="209" key="RiderGenerateDialog/0.0.1536.912@0.0.1536.912" timestamp="1726566706711" />
     <state x="777" y="241" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1725980488708" />
+    <state x="93" y="93" width="1350" height="726" key="VCS.FileHistoryDialog" timestamp="1726554506965">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="93" y="93" width="1350" height="726" key="VCS.FileHistoryDialog/0.0.1536.912@0.0.1536.912" timestamp="1726554506965" />
+    <state x="300" y="12" width="1113" height="899" key="dock-window-1" timestamp="1726555200813">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="300" y="12" width="1113" height="899" key="dock-window-1/0.0.1536.912@0.0.1536.912" timestamp="1726555200813" />
+    <state x="930" y="0" width="612" height="918" key="dock-window-2" timestamp="1726567414581">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="930" y="0" width="612" height="918" key="dock-window-2/0.0.1536.912@0.0.1536.912" timestamp="1726567414581" />
   </component>
 </project>
