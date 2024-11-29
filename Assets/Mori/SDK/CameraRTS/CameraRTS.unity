@@ -594,7 +594,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -633,17 +633,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937933892}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fb7962d2e8944c185f166dea03ed968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 937933894}
   _zoomProperties:
-    ZoomSpeed: 1
-    Smoothness: 1
+    ZoomSpeed: 25
+    Smoothness: 0.125
     ZoomMin: 3
-    ZoomMax: 10
+    ZoomMax: 70
 --- !u!114 &937933897
 MonoBehaviour:
   m_ObjectHideFlags: 0
