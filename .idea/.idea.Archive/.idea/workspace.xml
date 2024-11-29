@@ -23,18 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/FollowCamera.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/FollowCamera.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/FollowFixedUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/FollowFixedUpdate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/FollowUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/FollowUpdate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/Follower.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/Follow/Follower.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/riderModule.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/IZoomHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/IZoomHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/OrthographicCameraZoomHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/OrthographicCameraZoomHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/PerspectiveCameraZoomHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/PerspectiveCameraZoomHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CameraZoomController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CameraZoomController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CustomCameraZoomController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CustomCameraZoomController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/ScrollWheelCameraZoomController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/ScrollWheelCameraZoomController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomCameraScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomCameraScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomProperties.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomProperties.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,10 +113,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kmYuekIniv7v2TageofoyoTJhO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,11 +125,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Unity.exe" />
@@ -180,6 +188,8 @@
       <workItem from="1726293410681" duration="4391000" />
       <workItem from="1726480586306" duration="7009000" />
       <workItem from="1730823989576" duration="966000" />
+      <workItem from="1732626238915" duration="1455000" />
+      <workItem from="1732720556702" duration="4966000" />
     </task>
     <servers />
   </component>
