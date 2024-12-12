@@ -1,0 +1,2 @@
+12.12.2024 15:16:37: application started.
+12.12.2024 15:16:37: Save State: player_state

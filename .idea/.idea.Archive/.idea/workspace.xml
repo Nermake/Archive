@@ -23,26 +23,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/IZoomHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/IZoomHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/OrthographicCameraZoomHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/OrthographicCameraZoomHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/PerspectiveCameraZoomHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/Handlers/PerspectiveCameraZoomHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CameraZoomController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CameraZoomController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CustomCameraZoomController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/CustomCameraZoomController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/ScrollWheelCameraZoomController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/InputController/ScrollWheelCameraZoomController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomCameraScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomCameraScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomProperties.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mori/SDK/ZoomCamera/ZoomProperties.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/ChainOfResponsibility.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/ChainOfResponsibility.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/ChainOfResponsibilityScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/ChainOfResponsibilityScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/BankPaymentHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/BankPaymentHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/MoneyPaymentHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/MoneyPaymentHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/PayPalPaymentHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/PayPalPaymentHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/PaymentHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Handlers/PaymentHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/MainScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/MainScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Receivers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Receivers/PaymentReceiver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example1/Receivers/PaymentReceiver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/ChainOfResponsibility2.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/ChainOfResponsibility2.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/ChainOfResponsibilityScene2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/ChainOfResponsibilityScene2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/Quest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/Quest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/QuestEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/QuestEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/QuestState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/QuestState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/SerializableGUID.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Core/SerializableGUID.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/CompleteQuestMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/CompleteQuestMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/DebugMessageBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/DebugMessageBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/FailQuestMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/FailQuestMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/GeneralDebugMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/GeneralDebugMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/QuestMessageBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/QuestMessageBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/StartQuestMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/StartQuestMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/StateSaveMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/StateSaveMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/CompleteQuestProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/CompleteQuestProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/ConsoleLogProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/ConsoleLogProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/DebugProcessorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/DebugProcessorBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/FailQuestProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/FailQuestProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/FileLogProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/FileLogProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/GenericQuestProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/GenericQuestProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/IDebugProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/IDebugProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/IQuestProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/IQuestProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/NullCheckProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/NullCheckProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/QuestProcessorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/QuestProcessorBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/StartQuestProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/StartQuestProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/StateSaveProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Processor/StateSaveProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/DebugDemo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/DebugDemo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/DebugToolkit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/DebugToolkit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/QuestDemo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/QuestDemo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/QuestManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/View/QuestManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_state_state.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/ChainOfResponsibility.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/ChainOfResponsibility.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/ChainOfResponsibilityScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/ChainOfResponsibilityScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/BankPaymentHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/BankPaymentHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/MoneyPaymentHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/MoneyPaymentHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/PayPalPaymentHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/PayPalPaymentHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/PaymentHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Handlers/PaymentHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/MainScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/MainScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Receivers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Receivers/PaymentReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example/Receivers/PaymentReceiver.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +137,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/97/08e5070b/020006B7.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/011ccacb58784a80ac4b48b4c50ee0b7176400/a4/6b594150/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/8e/3c821948/File.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fabcb357c2d64f318e98aa2e2387a3647c00/ee/4a863ec8/Input.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/DesignPattern/ObjectPool/Example/Scripts/PoolMono.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/QuestMessageBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mori/SDK/CameraRTS/CameraInput/CustomMovementInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -190,6 +280,10 @@
       <workItem from="1730823989576" duration="966000" />
       <workItem from="1732626238915" duration="1455000" />
       <workItem from="1732720556702" duration="4966000" />
+      <workItem from="1732888571526" duration="5319000" />
+      <workItem from="1733730971030" duration="3047000" />
+      <workItem from="1733758275599" duration="1646000" />
+      <workItem from="1734000520088" duration="5733000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Mori.Patterns.PatternsOfBehavior.ChainOfResponsibility.Example
+namespace Mori.Patterns.PatternsOfBehavior.ChainOfResponsibility.Example1
 {
     public class MoneyPaymentHandler : PaymentHandler
     {
