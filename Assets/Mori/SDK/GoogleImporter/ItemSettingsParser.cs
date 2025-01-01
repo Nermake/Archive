@@ -5,13 +5,13 @@ namespace Mori.SDK.GoogleImporter
 {
     public class ItemSettingsParser : IGoogleSheetParser
     {
-        private readonly InventorySettings _inventorySettings;
+        private readonly GameSettings _gameSettings;
         private ItemSettings _currentItemSettings;
 
-        public ItemSettingsParser(InventorySettings inventorySettings)
+        public ItemSettingsParser(GameSettings gameSettings)
         {
-            _inventorySettings = inventorySettings;
-            _inventorySettings.Items = new List<ItemSettings>();
+            _gameSettings = gameSettings;
+            _gameSettings.Items = new List<ItemSettings>();
         }
         
         public void Parse(string header, string token)
@@ -23,7 +23,7 @@ namespace Mori.SDK.GoogleImporter
                     {
                         Id = token
                     };
-                    _inventorySettings.Items.Add(_currentItemSettings);
+                    _gameSettings.Items.Add(_currentItemSettings);
                     
                     break;
                 

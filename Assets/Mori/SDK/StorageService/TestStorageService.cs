@@ -8,7 +8,7 @@ namespace Mori.SDK.StorageService
 {
     public class TestStorageService : MonoBehaviour
     {
-        private const string key = "test_save";
+        private const string key = "test_save"; //C:/Users/[USER_NAME]/AppData/LocalLow/[COMPANY_NAME]/[GAME_NAME]
         private IStorageService _storageService;
         private TestStorageItem _item;
     
