@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gamedevmori",
+  "private_key_id": "096c5bf05c2467b4e01c540b8aa27eb0a0d7d361",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCioCHyvzTQiwIs\nGSb7jgyNIdDkGqnlruEFwCGXB4KPJOkoK9ThJRgRI54IpOVjmusBkbwuYfvy3gFd\n4Pcehrk+WapemEV56ReXdSrnczEHW1QzyCKk5an+d98/HRVlvZIHLDN174sfWY6A\nkbHgYeDfgzZ+vsxCiHHZK1cpQhpgHNPKgotqSFVAoFDopXeSIy72EfMjgC7O+s5x\npsTKntriUjyUqz7Hz1kYvHE147ttiTdzzrWYXSv74jQX9XHh9Cyzvl3a0MqN61Pg\n6kiNS7qh7dGLza2eBfab0nIgR3lrkPxcZqVrMYA1yAbIEuAheGkjGabA0c7twKmi\niT8uBhSVAgMBAAECggEABq7QOyA+r9I1w7FBHMwsn/eAVM6NGRZYaQRvk1We6+1F\noPdTvz1nV+72UJ8fTeC0ILA7NjTwsr1X4e9IegpQKviDnvFteEUxb75duSPbicfO\nQql9b17NUoFDdpDzC+ds8vTO5MOnaS4+Nz8/FGKZTqR4lRLkpHHkeDSG5ETMsV91\nEKgZIU2QIBo8sEZDE/B90G7cJZHp+AVcDdNOioF7Whouo9fKrbJ45FLDlWnbJ3EL\n0Veglf2Mg4kO1lclEtcOG9B2HW+CFkooQw2YsQx/ZZPq7aC1iKEzmFo+r+LXC778\n7HdB2+mOCuyMB6v+G0rf3zJHWJ1rRQOr43uYf61ymQKBgQDd5MiuL8mQ+G9/xcc7\nlij1aghgaEgQ8FIrNgyk5/t0sPZc6XeCUVUe+XX65q99I6JjxmDTEU5So5nZIAcK\nMTFcoaCs12L36NMJZw5AR8j5zt6eS+LlPWvnx55YaWUm9tY33uRpBvU536LjFGGj\nRNCZp5Maab6LhbfGKHbcP9fjOQKBgQC7nzn8k+3jo7WbMhJ+8QtOVpNb1WplySn0\nQ8QuNYPxxkZrmShO9GI+1l3jVgLU4GddjDjOxLyMlELJpG5ZW4MWXhjZrvIf1J+X\n7AB91RurkUi1X0qi1gfUub7iFuXFA5YB7LFZGLn2SElyGjBla0KhrE2yKKTKbOvk\nN8bKSYxwPQKBgQDNJ4cHzXUOjTQBram8BOSPqt5dzGy9BITkIM/l8/pAdJEDbHQr\nT+lkfv6+4GRmTfkJSNQiscB5lXtcDUmU+dCKtYEp7OY7Ec90xQyfD//YP5UCRGVe\nz8AhhyV21tNICDYdZ/5EwMMgJA2k6CYx3yECv7W5WQVsWFCGbMkgcAK5uQKBgQCJ\nwofZJOTu2C1oHoPmISakBn18WF8fDW14pKlPJIwU4fii2Hn4PwhECzI00dqSY5KB\n5YtwhpPKxLGlTM6ZXdAKhFzKuOGe7YehDO/vdKI0fyBby/QJTA3D6/50E0vyNIfY\nMeql+LnSU5FZ7lDKps7t1o3V2nHlD8TEdQ/JR+eOIQKBgQDJHMor8zvZd+2/H3ER\nO6xBmE9oKmt/MgflAUPzGZPDmLUiWbGuKlEFcgtB3epN1ZoIpQNO/Lb2P31T7TcS\nE1BcRz+XtrpxGjP22spVMGB/K1/no06mF229L6AGx1gZAjhHuU6+M60vdSKNjWDe\nOsJ625CKk3a2lNetc4pTkW7Y+w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "mori-test-builds@gamedevmori.iam.gserviceaccount.com",
+  "client_id": "116341372149464789512",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mori-test-builds%40gamedevmori.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -7,7 +7,5 @@ namespace Mori.SDK.GoogleImporter
     {
         public int Level;
         public int Exp;
-        public int Add;
-        public int Modificator;
     }
 }

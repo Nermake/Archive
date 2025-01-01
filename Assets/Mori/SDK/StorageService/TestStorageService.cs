@@ -66,6 +66,11 @@ namespace Mori.SDK.StorageService
                               $"dictionary[1]: {data.DictionaryParameter.Keys.ElementAt(1)}: {data.DictionaryParameter.Values.ElementAt(1)}");
                 });
             }
+            
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                _storageService.Load<TestStorageItem>(key, Callback);
+            }
 
             if (Input.GetKeyDown(KeyCode.L))
             {
@@ -74,6 +79,16 @@ namespace Mori.SDK.StorageService
                 
                 Debug.Log("Cleansing data");
             }
+        }
+
+        private void Callback(TestStorageItem obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void OnGet()
+        {
+            
         }
     }
 }

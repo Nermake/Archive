@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using Mori.SDK.StorageService;
+using UnityEditor;
 using UnityEngine;
 
 namespace Mori.SDK.GoogleImporter
@@ -8,12 +9,14 @@ namespace Mori.SDK.GoogleImporter
         private const string SPREADSHEET_ID = "1jctZANPvLel7QpvlJVnJw5VMGBE5moYqyI7AyBAKKvI";
         
         private const string ITEMS_SHEETS_NAME = "InventoryItems";
-        private const string CREDENTIALS_PATH = "gamedevmori-3d6c01411944.json";
+        private const string CREDENTIALS_PATH = "gamedevmori-096c5bf05c24.json";
         private const string SETTINGS_FILE_NAME = "GameSettings";
         
         private const string ITEMS_SHEETS_NAME2 = "UnitLevels";
         private const string CREDENTIALS_PATH2 = "leoecs-ed0179a2aed7.json";
         private const string SETTINGS_FILE_NAME2 = "LevelSettings";
+
+        private readonly IStorageService _storageService = new JsonToFileStorageService();
 
         [MenuItem("Mori/Import Items Settings")]
         private static async void LoadItemsSettings()
@@ -54,5 +57,15 @@ namespace Mori.SDK.GoogleImporter
 
             return gameSettings;
         }
+        
+        // private static GameSettings LoadSettingsFromJson()
+        // {
+        //     var jsonLoaded = _storageService.Load
+        //     var gameSettings = !string.IsNullOrEmpty(jsonLoaded)
+        //         ? JsonUtility.FromJson<GameSettings>(jsonLoaded)
+        //         : new GameSettings();
+        //
+        //     return gameSettings;
+        // }
     }
 }
