@@ -11,6 +11,7 @@ namespace QuestSystem
 
         private string _task;
         private QuestConfig _config;
+        private List<Goal> _goals;
         
         public void SetQuestion(QuestConfig config)
         {
@@ -22,6 +23,8 @@ namespace QuestSystem
 
         public void UpdateQuestFrame(List<Goal> goals)
         {
+            _goals = goals;
+            
             _task = $"\t {_config.Description} \n \n Цели: \n";
             
             foreach (var goal in goals)
@@ -31,6 +34,8 @@ namespace QuestSystem
 
             _description.text = _task;
         }
+
+        public void UpdateQuestFrame() => UpdateQuestFrame(_goals);
 
         public void Clear() => _description.text = string.Empty;
         public void Show() => gameObject.SetActive(true);

@@ -18,16 +18,22 @@ namespace QuestSystem
         public void Init(Quest quest)
         {
             _quest = quest;
-            
-            foreach (var implementer in _goalImplementers)
+
+            if (_implementers.Count == 0) //todo 1
             {
-                _implementers.Add(implementer.ID, implementer);
-                implementer.Implement += OnImplement;
+                foreach (var implementer in _goalImplementers)
+                {
+                    _implementers.Add(implementer.ID, implementer);
+                    implementer.Implement += OnImplement;
+                }
             }
 
-            foreach (var goal in _quest.Goals)
+            if (_goals.Count == 0) //todo 1
             {
-                _goals.Add(goal.ID, goal);
+                foreach (var goal in _quest.Goals)
+                {
+                    _goals.Add(goal.ID, goal);
+                }
             }
         }
 
@@ -38,18 +44,23 @@ namespace QuestSystem
 
             if (goal.IsCompleted)
             {
-                _goals.Remove(implementer.ID);
                 implementer.Implement -= OnImplement;
+                _goals.Remove(implementer.ID);
             }
         }
 
+        public void Complete() //todo 1
+        {
+            _implementers.Clear();
+        }
+        
         private void OnDestroy()
         {
             foreach (var implementer in _implementers)
             {
                 implementer.Value.Implement -= OnImplement;
             }
-
+            
             _implementers = null;
         }
     }

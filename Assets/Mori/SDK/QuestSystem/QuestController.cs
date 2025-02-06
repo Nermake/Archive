@@ -19,8 +19,8 @@ namespace QuestSystem
         [SerializeField] private float _scrollSensitivity;
         [SerializeField] private List<QuestImplementer> _questImplementers;
         
-        private Dictionary<Quest, QuestView> _questViews = new Dictionary<Quest, QuestView>();
-        private Dictionary<string, QuestImplementer> _implementers = new Dictionary<string, QuestImplementer>();
+        private Dictionary<Quest, QuestView> _questViews = new();
+        private readonly Dictionary<string, QuestImplementer> _implementers = new();
 
         private void Start()
         {
@@ -37,13 +37,18 @@ namespace QuestSystem
         {
             if (_questViews != null) UpdateQuestTimers();
         }
-
+        
         public void AddQuestion(QuestConfig config)
         {
             var quest = new Quest();
             quest.Init(config);
             quest.ChangeState += OnQuestChangeState;
             quest.ChangeTime += OnQuestChangeTime;
+
+            foreach (var goal in quest.Goals)
+            {
+                goal.ChangeAmount += OnGoalChangeAmount; 
+            }
             
             var view = Instantiate(_prefab, _parent, true);
             view.SetQuestion(quest, config);
@@ -75,15 +80,29 @@ namespace QuestSystem
             {
                 case StateOfReadiness.InProgress:
                     view.SetState(Color.cyan);
+                    
                     break;
+                
                 case StateOfReadiness.Completed:
                     view.SetState(Color.green);
                     view.HideTimer();
+                    
+                    //_implementers[sender.ID].Complete();
+                    
                     break;
+                
                 case StateOfReadiness.Failed:
                     view.SetState(Color.red);
+                    // todo добавь блокировку выполения цели
+                    
                     break;
             }
+        }
+
+        private void OnGoalChangeAmount()
+        {
+            _questFrameView.Clear();
+            _questFrameView.UpdateQuestFrame();
         }
 
         private void UpdateQuestTimers()
@@ -96,6 +115,7 @@ namespace QuestSystem
 
         private void OpenQuestFrame(QuestView view)
         {
+            _questFrameView.Clear();
             _questFrameView.Show();
             
             _questFrameView.SetQuestion(view.Config);
@@ -104,13 +124,12 @@ namespace QuestSystem
         
         private void CloseQuestFrame(QuestView view)
         {
-            _questFrameView.Clear();
             _questFrameView.Hide();
         }
 
         public void ClearQuestList()
         {
-            if (_questViews == null) return;
+            if (_questViews.Count == 0) return;
             
             foreach (var quest in _questViews)
             {
@@ -120,7 +139,7 @@ namespace QuestSystem
                 Destroy(quest.Value.gameObject);
             }
 
-            _questViews = null;
+            _questViews = new Dictionary<Quest, QuestView>();
         }
 
         private void OnDestroy()
