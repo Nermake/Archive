@@ -87,13 +87,15 @@ namespace QuestSystem
                     view.SetState(Color.green);
                     view.HideTimer();
                     
-                    //_implementers[sender.ID].Complete();
-                    
                     break;
                 
                 case StateOfReadiness.Failed:
                     view.SetState(Color.red);
-                    // todo добавь блокировку выполения цели
+                    foreach (var goal in sender.Goals)
+                    {
+                        goal.ChangeAmount -= OnGoalChangeAmount;
+                    }
+                    _implementers[sender.ID].Clear();
                     
                     break;
             }
@@ -115,7 +117,6 @@ namespace QuestSystem
 
         private void OpenQuestFrame(QuestView view)
         {
-            _questFrameView.Clear();
             _questFrameView.Show();
             
             _questFrameView.SetQuestion(view.Config);
@@ -139,7 +140,7 @@ namespace QuestSystem
                 Destroy(quest.Value.gameObject);
             }
 
-            _questViews = new Dictionary<Quest, QuestView>();
+            _questViews.Clear();
         }
 
         private void OnDestroy()

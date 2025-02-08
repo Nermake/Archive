@@ -30,9 +30,9 @@ namespace QuestSystem
             CurrentAmount += value;
             CurrentAmount = Mathf.Clamp(CurrentAmount, 0, RequiredAmount);
             
-            CheckCompleted();
-            
             ChangeAmount?.Invoke();
+            
+            CheckCompleted();
         }
 
         private void CheckCompleted()

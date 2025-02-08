@@ -18,7 +18,6 @@ namespace QuestSystem
             _config = config;
             
             _title.text = config.Title;
-            _task = string.Empty;
         }
 
         public void UpdateQuestFrame(List<Goal> goals)

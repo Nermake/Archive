@@ -9,23 +9,24 @@ namespace QuestSystem
     {
         public event Action<Quest, StateOfReadiness> ChangeState;
         public event Action<Quest, int, int> ChangeTime;
+
+        private StateOfReadiness _state;
+        private float _time;
         
-        public StateOfReadiness State { get; private set; }
         public bool IsTimer { get; private set; }
         public string ID { get; private set; }
         public string Title { get; private set; }
         public string Description { get; private set; }
         public string ShortDescription { get; private set; }
-        public float Time { get; private set; }
-
         public List<Goal> Goals { get; private set; }
 
         public void Init(QuestConfig config)
         {
             Goals = new List<Goal>();
-            State = StateOfReadiness.InProgress;
+            _state = StateOfReadiness.InProgress;
+            ID = config.ID;
             IsTimer = config.IsTimer;
-            Time = config.Time;
+            _time = config.Time;
             Title = config.Title;
             Description = config.Description;
             ShortDescription = config.ShortDescription;
@@ -45,35 +46,35 @@ namespace QuestSystem
         {
             if (!IsTimer) return;
 
-            Time -= time;
+            _time -= time;
 
-            if (Time <= 0)
+            if (_time <= 0)
             {
-                Time = 0;
+                _time = 0;
                 IsTimer = false;
-                State = StateOfReadiness.Failed;
+                _state = StateOfReadiness.Failed;
                 ChangeState?.Invoke(this, StateOfReadiness.Failed);
                 ChangeTime?.Invoke(this, 0, 0);
                 
                 return;
             }
             
-            var minute = Mathf.RoundToInt(Time / 60);
-            var second = Mathf.RoundToInt(Time % 60);
+            var minute = Mathf.RoundToInt(_time / 60);
+            var second = Mathf.RoundToInt(_time % 60);
             ChangeTime?.Invoke(this, minute, second);
         }
         
         private void OnGoalCompleted()
         {
-            IsTimer = false;
-            
             var lenght = Goals.Count - 1;
             var count = Goals.Count(goal => goal.IsCompleted);
             
             if (count == lenght)
             {
-                State = StateOfReadiness.Completed;
-                ChangeState?.Invoke(this, State);
+                IsTimer = false;
+       
+                _state = StateOfReadiness.Completed;
+                ChangeState?.Invoke(this, _state);
             }
         }
     }

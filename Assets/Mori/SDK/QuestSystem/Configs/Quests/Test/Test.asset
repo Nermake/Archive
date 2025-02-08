@@ -19,4 +19,4 @@ MonoBehaviour:
   <GoalConfigs>k__BackingField:
   - {fileID: 11400000, guid: 3c81b18d64fc16f4ab9d98258546cf43, type: 2}
   <IsTimer>k__BackingField: 1
-  <Time>k__BackingField: 10
+  <Time>k__BackingField: 5

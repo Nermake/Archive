@@ -24,18 +24,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fd571358-515f-4a73-bc84-1625d29d69a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archive/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets.generated.sln.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Configs/Quests/Test/Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Configs/Quests/Test/Test.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Goals/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Goals/Goal.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/QuestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/QuestController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/QuestImplementer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/QuestImplementer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/QuestSystem.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/QuestSystem.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/Quests/Quest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/View/QuestFrameView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mori/SDK/QuestSystem/View/QuestFrameView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/PatternsOfBehavior/ChainOfResponsibility/Example2/Message/QuestMessageBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mori/Patterns/StructuralPatterns/Bridge/Example/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mori/SDK/CameraRTS/CameraInput/CustomMovementInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -202,7 +198,7 @@
       <workItem from="1735764125472" duration="4484000" />
       <workItem from="1737680711136" duration="2182000" />
       <workItem from="1738500107042" duration="852000" />
-      <workItem from="1738751028818" duration="5213000" />
+      <workItem from="1738751028818" duration="9408000" />
     </task>
     <servers />
   </component>

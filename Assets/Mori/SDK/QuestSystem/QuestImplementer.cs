@@ -19,7 +19,7 @@ namespace QuestSystem
         {
             _quest = quest;
 
-            if (_implementers.Count == 0) //todo 1
+            if (_implementers.Count == 0)
             {
                 foreach (var implementer in _goalImplementers)
                 {
@@ -28,7 +28,7 @@ namespace QuestSystem
                 }
             }
 
-            if (_goals.Count == 0) //todo 1
+            if (_goals.Count == 0)
             {
                 foreach (var goal in _quest.Goals)
                 {
@@ -49,8 +49,13 @@ namespace QuestSystem
             }
         }
 
-        public void Complete() //todo 1
+        public void Clear() //todo 1
         {
+            foreach (var implementer in _implementers)
+            {
+                implementer.Value.Implement -= OnImplement;
+            }
+            
             _implementers.Clear();
         }
         
