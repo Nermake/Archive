@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 namespace QuestSystem
@@ -9,32 +8,27 @@ namespace QuestSystem
         [SerializeField] private TMP_Text _title;
         [SerializeField] private TMP_Text _description;
 
-        private string _task;
-        private QuestConfig _config;
-        private List<Goal> _goals;
+        private string _message;
+        private Quest _quest;
         
-        public void SetQuestion(QuestConfig config)
+        public void SetQuestion(Quest quest)
         {
-            _config = config;
+            _quest = quest;
             
-            _title.text = config.Title;
+            _title.text = quest.Title;
         }
 
-        public void UpdateQuestFrame(List<Goal> goals)
+        public void UpdateQuestFrame()
         {
-            _goals = goals;
+            _message = $"\t {_quest.Description} \n \n Цели: \n";
             
-            _task = $"\t {_config.Description} \n \n Цели: \n";
-            
-            foreach (var goal in goals)
+            foreach (var goal in _quest.Goals)
             {
-                _task += $"\t {goal.Description} ({goal.CurrentAmount}/{goal.RequiredAmount}). \n";
+                _message += $"\t {goal.Description} ({goal.CurrentAmount}/{goal.RequiredAmount}). \n";
             }
 
-            _description.text = _task;
+            _description.text = _message;
         }
-
-        public void UpdateQuestFrame() => UpdateQuestFrame(_goals);
 
         public void Clear() => _description.text = string.Empty;
         public void Show() => gameObject.SetActive(true);

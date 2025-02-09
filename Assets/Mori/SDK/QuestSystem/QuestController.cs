@@ -19,11 +19,16 @@ namespace QuestSystem
         [SerializeField] private float _scrollSensitivity;
         [SerializeField] private List<QuestImplementer> _questImplementers;
         
-        private Dictionary<Quest, QuestView> _questViews = new();
-        private readonly Dictionary<string, QuestImplementer> _implementers = new();
+        private Dictionary<string, Quest> _quests;
+        private Dictionary<string, QuestView> _questViews;
+        private Dictionary<string, QuestImplementer> _implementers;
 
         private void Start()
         {
+            _quests = new Dictionary<string, Quest>();
+            _questViews = new Dictionary<string, QuestView>();
+            _implementers = new Dictionary<string, QuestImplementer>();
+            
             _scrollRectQuestList.scrollSensitivity = _scrollSensitivity;
             _scrollRectQuestFrame.scrollSensitivity = _scrollSensitivity;
 
@@ -40,6 +45,8 @@ namespace QuestSystem
         
         public void AddQuestion(QuestConfig config)
         {
+            if (_quests.ContainsKey(config.ID)) return;
+            
             var quest = new Quest();
             quest.Init(config);
             quest.ChangeState += OnQuestChangeState;
@@ -51,7 +58,7 @@ namespace QuestSystem
             }
             
             var view = Instantiate(_prefab, _parent, true);
-            view.SetQuestion(quest, config);
+            view.SetQuestion(config);
             view.PointerEnter += OpenQuestFrame;
             view.PointerExit += CloseQuestFrame;
 
@@ -59,22 +66,24 @@ namespace QuestSystem
             
             if (!quest.IsTimer) view.HideTimer();
             
-            _questViews.Add(quest, view);
+            _quests.Add(config.ID, quest);
+            _questViews.Add(config.ID, view);
             
-            OnQuestChangeState(quest, StateOfReadiness.InProgress);
+            OnQuestChangeState(quest.ID, StateOfReadiness.InProgress);
         }
 
-        private void OnQuestChangeTime(Quest sender, int minute, int second)
+        private void OnQuestChangeTime(string id, int minute, int second)
         {
-            if (sender.IsTimer)
+            if (_quests[id].IsTimer)
             {
-                _questViews[sender].SetTimer(minute, second);
+                _questViews[id].SetTimer(minute, second);
             }
         }
 
-        private void OnQuestChangeState(Quest sender, StateOfReadiness stateOfReadiness)
+        private void OnQuestChangeState(string id, StateOfReadiness stateOfReadiness)
         {
-            var view = _questViews[sender];
+            var view = _questViews[id];
+            var quest = _quests[id];
             
             switch (stateOfReadiness)
             {
@@ -91,11 +100,11 @@ namespace QuestSystem
                 
                 case StateOfReadiness.Failed:
                     view.SetState(Color.red);
-                    foreach (var goal in sender.Goals)
+                    foreach (var goal in quest.Goals)
                     {
                         goal.ChangeAmount -= OnGoalChangeAmount;
                     }
-                    _implementers[sender.ID].Clear();
+                    _implementers[id].Clear();
                     
                     break;
             }
@@ -107,46 +116,55 @@ namespace QuestSystem
             _questFrameView.UpdateQuestFrame();
         }
 
-        private void UpdateQuestTimers()
-        {
-            foreach (var quest in _questViews)
-            {
-                quest.Key.UpdateTimer(Time.deltaTime);
-            }
-        }
-
-        private void OpenQuestFrame(QuestView view)
+        private void OpenQuestFrame(string id)
         {
             _questFrameView.Show();
             
-            _questFrameView.SetQuestion(view.Config);
-            _questFrameView.UpdateQuestFrame(view.Quest.Goals);
+            _questFrameView.SetQuestion(_quests[id]);
+            _questFrameView.UpdateQuestFrame();
         }
         
-        private void CloseQuestFrame(QuestView view)
+        private void CloseQuestFrame()
         {
             _questFrameView.Hide();
+        }
+
+        private void UpdateQuestTimers()
+        {
+            foreach (var quest in _quests)
+            {
+                quest.Value.UpdateTimer(Time.deltaTime);
+            }
         }
 
         public void ClearQuestList()
         {
             if (_questViews.Count == 0) return;
             
-            foreach (var quest in _questViews)
+            foreach (var quest in _quests)
             {
-                quest.Key.ChangeState -= OnQuestChangeState;
-                quest.Key.ChangeTime -= OnQuestChangeTime;
+                quest.Value.ChangeState -= OnQuestChangeState;
+                quest.Value.ChangeTime -= OnQuestChangeTime;
+            }
+            
+            foreach (var view in _questViews)
+            {
+                view.Value.PointerEnter -= OpenQuestFrame;
+                view.Value.PointerExit -= CloseQuestFrame;
 
-                Destroy(quest.Value.gameObject);
+                Destroy(view.Value.gameObject);
             }
 
+            foreach (var implementer in _implementers)
+            {
+                implementer.Value.Clear();
+            }
+
+            _quests.Clear();
             _questViews.Clear();
         }
 
-        private void OnDestroy()
-        {
-            ClearQuestList();
-        }
+        private void OnDestroy() => ClearQuestList();
     }
 }
 

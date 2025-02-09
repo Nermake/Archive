@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace QuestSystem
@@ -8,12 +9,18 @@ namespace QuestSystem
         [SerializeField] private QuestConfig _config;
         [SerializeField] private List<GoalImplementer> _goalImplementers;
 
-        private Dictionary<string, GoalImplementer> _implementers = new Dictionary<string, GoalImplementer>();
-        private Dictionary<string, Goal> _goals = new Dictionary<string, Goal>();
+        private Dictionary<string, Goal> _goals;
+        private Dictionary<string, GoalImplementer> _implementers;
         
         private Quest _quest;
         
         public string ID => _config.ID;
+
+        private void Start()
+        {
+            _goals = new Dictionary<string, Goal>();
+            _implementers = new Dictionary<string, GoalImplementer>();
+        }
 
         public void Init(Quest quest)
         {
@@ -49,13 +56,14 @@ namespace QuestSystem
             }
         }
 
-        public void Clear() //todo 1
+        public void Clear()
         {
             foreach (var implementer in _implementers)
             {
                 implementer.Value.Implement -= OnImplement;
             }
             
+            _goals.Clear();
             _implementers.Clear();
         }
         
@@ -65,8 +73,6 @@ namespace QuestSystem
             {
                 implementer.Value.Implement -= OnImplement;
             }
-            
-            _implementers = null;
         }
     }
 }

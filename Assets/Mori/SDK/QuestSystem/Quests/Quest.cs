@@ -7,8 +7,8 @@ namespace QuestSystem
 {
     public class Quest
     {
-        public event Action<Quest, StateOfReadiness> ChangeState;
-        public event Action<Quest, int, int> ChangeTime;
+        public event Action<string, StateOfReadiness> ChangeState;
+        public event Action<string, int, int> ChangeTime;
 
         private StateOfReadiness _state;
         private float _time;
@@ -23,10 +23,12 @@ namespace QuestSystem
         public void Init(QuestConfig config)
         {
             Goals = new List<Goal>();
+            
             _state = StateOfReadiness.InProgress;
+            _time = config.Time;
+            
             ID = config.ID;
             IsTimer = config.IsTimer;
-            _time = config.Time;
             Title = config.Title;
             Description = config.Description;
             ShortDescription = config.ShortDescription;
@@ -51,17 +53,18 @@ namespace QuestSystem
             if (_time <= 0)
             {
                 _time = 0;
-                IsTimer = false;
                 _state = StateOfReadiness.Failed;
-                ChangeState?.Invoke(this, StateOfReadiness.Failed);
-                ChangeTime?.Invoke(this, 0, 0);
+                
+                IsTimer = false;
+                ChangeState?.Invoke(ID, StateOfReadiness.Failed);
+                ChangeTime?.Invoke(ID, 0, 0);
                 
                 return;
             }
             
             var minute = Mathf.RoundToInt(_time / 60);
             var second = Mathf.RoundToInt(_time % 60);
-            ChangeTime?.Invoke(this, minute, second);
+            ChangeTime?.Invoke(ID, minute, second);
         }
         
         private void OnGoalCompleted()
@@ -74,7 +77,7 @@ namespace QuestSystem
                 IsTimer = false;
        
                 _state = StateOfReadiness.Completed;
-                ChangeState?.Invoke(this, _state);
+                ChangeState?.Invoke(ID, _state);
             }
         }
     }

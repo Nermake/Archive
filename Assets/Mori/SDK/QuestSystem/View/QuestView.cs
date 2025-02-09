@@ -8,21 +8,19 @@ namespace QuestSystem
 {
     public class QuestView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
-        public event Action<QuestView> PointerEnter;
-        public event Action<QuestView> PointerExit;
+        public event Action<string> PointerEnter;
+        public event Action PointerExit;
         
         [SerializeField] private TMP_Text _title;
         [SerializeField] private TMP_Text _description;
         [SerializeField] private TimerView _view;
         [SerializeField] private Image _state;
 
-        public QuestConfig Config { get; private set; }
-        public Quest Quest { get; private set; }
+        public string ID { get; private set; }
         
-        public void SetQuestion(Quest quest, QuestConfig config)
+        public void SetQuestion(QuestConfig config)
         {
-            Quest = quest;
-            Config = config;
+            ID = config.ID;
             
             _title.text = config.Title;
             _description.text = config.ShortDescription;
@@ -32,13 +30,7 @@ namespace QuestSystem
         public void ShowTimer() => _view.gameObject.SetActive(true);
         public void HideTimer() => _view.gameObject.SetActive(false);
         
-        public void OnPointerEnter(PointerEventData eventData)
-        {
-            PointerEnter?.Invoke(this);
-        }
-        public void OnPointerExit(PointerEventData eventData)
-        {
-            PointerExit?.Invoke(this);
-        }
+        public void OnPointerEnter(PointerEventData eventData) => PointerEnter?.Invoke(ID);
+        public void OnPointerExit(PointerEventData eventData) => PointerExit?.Invoke();
     }
 }

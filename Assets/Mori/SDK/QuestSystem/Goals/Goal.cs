@@ -27,11 +27,9 @@ namespace QuestSystem
         {
             if (value <= 0) return;
             
-            CurrentAmount += value;
-            CurrentAmount = Mathf.Clamp(CurrentAmount, 0, RequiredAmount);
+            CurrentAmount = Mathf.Clamp(CurrentAmount + value, 0, RequiredAmount);
             
             ChangeAmount?.Invoke();
-            
             CheckCompleted();
         }
 
